@@ -66,10 +66,9 @@ body{
 }
 
 .hero-right{
-    background-color: #c0c3c9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url("images/main-img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /*info section*/
@@ -91,12 +90,17 @@ body{
     margin: 20px;
 }
 
-.card-top{
+.card-top img{
     height: 150px;
     width: 144px;
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
+
+/*.card-top img{
+    height: 100%;
+    margin: auto;
+}*/
 
 .card-text{
     margin: 10px 0;
